@@ -1,0 +1,15 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore environment and sensitive files
+backend/credentials.json
+
+# Ignore compiled and temporary files
+*.log
+*.tmp
+
+# Ignore package-lock.json if you don’t want to include it
+package-lock.json
+
+# Ignore specific frontend files
+frontend/startbootstrap-sb-admin-gh-pages/assets/img/error-404-monochrome.svg
